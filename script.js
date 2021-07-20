@@ -61,15 +61,6 @@ window.onload = () => {
     }
 }
 
-//const image = document.querySelector("#profile_pic"); 
-//const main = document.querySelector(".main"); 
-//const slider = document.querySelector(".slider"); 
-//const intro_wrapper = document.querySelector(".intro-wrapper"); 
-//const tl = new TimelineMax();  
-
-//tl.fromTo(main, .4, {height: "200%"}, {height: "100%", ease: Power2.easeInOut})
-//.fromTo(main, 1.2, {width: "200%"}, {width: "100%", ease: Power2.easeInOut}); 
-//tl.fromTo(main, 2, {x: "-200%"}, {x: "0%", ease: Power2.easeInOut}); 
 
 
 window.addEventListener("DOMContentLoaded", function() {
@@ -117,9 +108,7 @@ window.addEventListener("DOMContentLoaded", function() {
       }
     };
     xhr.send(data);
-  }
-
-
+  } 
 
 
 

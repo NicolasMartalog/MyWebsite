@@ -19,6 +19,7 @@
 html, body {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }  
 
 body *{
@@ -62,7 +63,10 @@ h6 {font-size: 23px;}
 h7 {font-size: 23px;} 
 
 
-
+.overall_container {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
 
 .s1{
     background-color: var(--mainColour); 
@@ -231,7 +235,18 @@ h7 {font-size: 23px;}
     line-height: 60px;
     background-color: var(--secondaryColour);
     
-} 
+}  
+
+#dot-4{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+    background-color: var(--secondaryColour);
+    
+}  
+
 
 
 .browser-dot{
@@ -326,6 +341,34 @@ h7 {font-size: 23px;}
 } 
 
 #dot-3:hover:after{
+
+    opacity: 1; 
+    transition: .7s;
+}  
+
+#dot-4:before{
+    content: '';
+    
+    background: rgba(255, 255, 255, .5);
+    
+    opacity: .5s;
+    
+}
+
+#dot-4:after{
+    content: '';
+    background: rgba(255, 255, 255, .2);
+    opacity: 0;
+    
+
+} 
+
+#dot-4:hover{ 
+    background: #338033;
+    cursor: pointer;
+} 
+
+#dot-4:hover:after{
 
     opacity: 1; 
     transition: .7s;
