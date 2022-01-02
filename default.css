@@ -574,7 +574,7 @@ h7 {font-size: 23px;}
     object-fit: cover;
     border: 2px solid var(--border);
     width: 60%;
-    height: 60%;
+    height: 100%;
 }  
 
 .icons {
