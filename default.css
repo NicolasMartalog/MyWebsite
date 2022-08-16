@@ -33,12 +33,12 @@ h1, h2, h3, h4, h5, h6, strong{
 
 p, li, span, label{
     color: var(--maintext);
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Verdana', sans-serif;
 }   
 
 textarea, input{
     color: var(--maintext);
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 
 a{
@@ -663,6 +663,18 @@ h7 {font-size: 23px;}
     object-fit: cover;
     border-radius: 10px;
 }  
+
+.thumbnail2{
+    display: block;
+    width: 101%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}  
+
+.newone{
+    justify-content: center;
+}
 
 #zurv{
     height: 100%;
